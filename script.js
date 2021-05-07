@@ -1,7 +1,7 @@
 let age = 13
 let guess = 0
 
-while (guess !== age) {
+while (guess != age) {
   guess = prompt('What is my age?')
 
   if (guess === age) {
